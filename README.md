@@ -30,8 +30,13 @@ It can also create separate branches (or universes) to allow us to experiment.
 0) git init
 0) git status
 0) git logs
+0) git checkout master
+0) git checkout <commit hash>
+0) git remote --
 
 1)git commit -m '<Meaningful message>'
 1)git add <file>
+
+
 
 ### what to do when repo is initiated in the wrong place
