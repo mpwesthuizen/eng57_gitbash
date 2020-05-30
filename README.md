@@ -1,19 +1,28 @@
-# Git, GitHub and Bash README
-
-This is an amazing repo!
-
+# GitBash and GitHub README
 
 This repo covers the following concepts/tools:
-- GitHub
-- Git
-- README files
-- markdown or .md files
+- Bash
+- Git Bash
+- Git Hub
+- Issues and Troubleshooting
 
 ## Bash
-Bash is a command line language used in terminals.
-We can use it to create file, navigate our computer or run programs.
+Bash is a command line/shell language used in Linux terminals. It is also compatible with macOS (however Apple has replaced it with zsh as a default shell). Window's shell language is powershell.
 
-### Basic Bash Commands
+_Note: macOS and linux distros share some similar functionality due to fact that the kernels/codebases have some similarities in structure. For a time macOS used bash and it worth noting that zsh, even as Apple attempts to move away from bash, is still similar to bash._
+ 
+We can use it to create files, navigate our computer or run programs.
+
+References:
+- https://itsfoss.com/mac-linux-difference/
+
+- https://www.gnu.org/software/bash/
+
+- https://superuser.com/questions/806922/what-is-the-differences-between-ms-dos-powershell-in-windows
+
+- https://www.theverge.com/2019/6/4/18651872/apple-macos-catalina-zsh-bash-shell-replacement-features
+
+#### Basic Bash Commands
 - ls : lists current directory
 - rm : removes a file/directory
 - .. : navigates back a folder
@@ -23,24 +32,47 @@ We can use it to create file, navigate our computer or run programs.
 - code : opens vs code editor in folder
 - -a : shows hidden files/folders
 
+
 ## Git
-Git is version control.
+Git is a powerful version control used by developers globally and commonplace in industry.
 It can go backwards in time and forwards.
 It can also create separate branches (or universes) to allow us to experiment.
 
-### Basic Git Commands
-0) git init :
-0) git status
-0) git log
-0) git checkout master
-0) git checkout <commit hash>
-0) git remote -- v
-0) git diff
-0) git push origin master
+#### Basic GitBash Commands
+- git init : Used to intialise a repo on the local machine. You should be in the directory to run this one.
 
-1)git commit -m '<Meaningful message>'
-1)git add <file>
+- git status : This shows the tracked files on the machine and the status of the files IE. tracked, staged or committed.
+ 
+- git log : Shows the commit history, master branches, and origin.
+
+- git checkout master
+- git checkout <commit hash>
+- git remote -- v
+- git diff
+- git push origin master
+
+- git commit -m '<Meaningful message>'
+
+- git add <file>
 
 
+References:
+- https://itsfoss.com/mac-linux-difference/
 
-### what to do when repo is initiated in the wrong place
+- https://www.gnu.org/software/bash/
+
+##Git Hub
+description
+
+creating repo's
+
+ssh keys vs login
+
+#### Pushing
+#### Pulling
+
+#### Branching
+#### Merging
+#### Forking
+
+
