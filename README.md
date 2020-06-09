@@ -69,10 +69,26 @@ creating repo's
 ssh keys vs login
 
 #### Pushing
+where the local repo pushes up to the github repo.
+
+- git push 
+- git push <location>
+
 #### Pulling
+Where the github repo pulls from the local repo.
 
 #### Branching
-#### Merging
-#### Forking
+Branching is used to allow collaborators to create seperate branches where developments can take place without conflicting with the master branch. This is useful as it means that the master branch can always contain working code that can still be in production whilst alterations (that break code) can be made seperately and then merged later when code is fully function. It helpful to think of the master branch as a Production environment and the branches as UAT environments.
 
+##### Commands needed to create branch and add changes:
+
+- git checkout remote -b <name of branch>
+- git add and git commit
+- git push origin <branch name>
+
+#### Merging
+Go to branched repo on github.com after committing a recent branch. Select the pull and merge request in project files, then fill out the commit messages and hit merge. This will merge new feature of the branch to the master branch so everyone can use it.
+
+#### Forking
+This is a github action that copies the whole repo to your account.
 
