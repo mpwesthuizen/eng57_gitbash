@@ -77,6 +77,12 @@ where the local repo pushes up to the github repo.
 #### Pulling
 Where the github repo pulls from the local repo.
 
+#### Cloning
+Cloning is the way to copy a repo to your local folders you are go to start by going to the repo on github.com and hitting the clone button on the top right of the repo page then go to the terminal and accessing the directory you want to make your copy and run the git clone command with the copied repo https or ssh key.
+
+command:
+- git clone <repo>
+
 #### Branching
 Branching is used to allow collaborators to create seperate branches where developments can take place without conflicting with the master branch. This is useful as it means that the master branch can always contain working code that can still be in production whilst alterations (that break code) can be made seperately and then merged later when code is fully function. It helpful to think of the master branch as a Production environment and the branches as UAT environments.
 
