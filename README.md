@@ -89,6 +89,8 @@ Branching is used to allow collaborators to create seperate branches where devel
 ##### Commands needed to create branch and add changes:
 
 - git checkout remote -b <name of branch>
+Note: when checking out of master into branch git will bring any pending stages and commits.
+
 - git add and git commit
 - git push origin <branch name>
 
