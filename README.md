@@ -74,7 +74,7 @@ https://github.com/
 Remote origin repos can be made by going to your account and adding a new repo once you have created the repo GitHub will give instructions as how to add the remote origin as an upstream remote to your local git master branch. 
 
 #### ssh keys vs login
-There are two main ways of authentication for pushing to remote repos and adding collaborators to git repos. When pushing to remote repo's you may use either an ssh key once or add you remote credentials every time (when prompted). SSH keys can also be distributed to collaborators who branch of the project master and merge the master files. Alternatively you can add collaborators via GitHub.com in the repo's options. 
+There are two main ways of authentication for pushing to remote repos and adding collaborators to git repos. When pushing to remote repo's you may use either a ssh key once or add you remote credentials every time (when prompted). SSH keys can also be distributed to collaborators who branch of the project master and merge the master files. Alternatively you can add collaborators via GitHub.com in the repo's options. 
 
 #### Pushing
 where the local repo pushes up to the github repo.
